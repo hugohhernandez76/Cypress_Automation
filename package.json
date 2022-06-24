@@ -1,0 +1,21 @@
+{
+  "name": "cypress_automation_demo",
+  "version": "1.0.0",
+  "description": "Automation E2E demo with Cypress.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "keywords": [
+    "Cypress.io"
+  ],
+  "author": "Victor Hugo Hernandez Soto",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^2.0.0"
+  }
+}
